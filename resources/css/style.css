@@ -1,0 +1,223 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 1px black solid;
+  padding: 10px 0px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding-left: 40px;
+}
+
+.menu {
+  display: inline-flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+span {
+  padding: 0px 10px;
+}
+
+/* main box*/
+.body {
+  display: flex;
+  margin: 80px 40px;
+  padding-top: 40px;
+  width: auto;
+  height: 100%;
+  z-index: 0;
+  justify-content: space-between;
+  font-family: Georgia;
+  color: black;
+  font-size: 17px;
+}
+
+/* three columns */
+div.large {
+  display: flex;
+  height: auto;
+  width: 630px;
+  flex-direction: column;
+}
+
+div.medium {
+  display: flex;
+  height: auto;
+  width: 300px;
+  flex-direction: column;
+}
+
+div.narrow {
+  display: flex;
+  height: auto;
+  width: 240px;
+  flex-direction: column;
+}
+
+/* first column setup */
+
+.large .two {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.large .three {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.large .one .main {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/party.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.large .one p {
+  text-align: left;
+  padding: 17px 0;
+  margin: 0;
+}
+
+.large .two p {
+  text-align: left;
+  padding: 17px 0;
+  margin: 0;
+}
+
+.two .earth {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/fall.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.large .three p {
+  text-align: left;
+  padding: 17px 0;
+  margin: 0;
+}
+
+.three .memory {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/camera.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#horizontal {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* second column setup */
+
+.medium .two .cat {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/cat.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+
+/* third column setup */
+.narrow .bite {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.narrow .one {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 40px 0px;
+}
+
+.one span {
+  padding: 10px 20px;
+  border-bottom: 1px black solid;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px;
+  align-items: center;
+}
+
+.menu_footer {
+  display: inline-flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+#my_times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-right: 30px;
+}
